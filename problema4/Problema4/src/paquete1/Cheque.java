@@ -9,14 +9,14 @@ package paquete1;
  *
  * @author macbookair
  */
-public class EntidadFinanciera {
+public class Cheque {
 
     private String nombreCliente;
     private String nombreBanco;
     private double valorCheque;
     private double comision;
 
-    public EntidadFinanciera(String nC, String nB, double vC) {
+    public Cheque(String nC, String nB, double vC) {
         nombreCliente = nC;
         nombreBanco = nB;
         valorCheque = vC;
@@ -56,7 +56,7 @@ public class EntidadFinanciera {
     }
 
     public String toString() {
-        String cadena = String.format("La entidad financiera\n"
+        String cadena = String.format("La entidad financiera es: \n"
                 + "Nombre del cliente: %s\n"
                 + "Nombre del Banco: %s\n"
                 + "Valor del cheque: %.2f\n"

@@ -20,7 +20,7 @@ public class Ejecutor {
         nombreBanco = "Banco de Loja";
         valorCheque = 122.5;
         
-        EntidadFinanciera eF = new EntidadFinanciera(nombreCliente,nombreBanco,
+        Cheque eF = new Cheque(nombreCliente,nombreBanco,
                 valorCheque);
         eF.calcularComision();
         System.out.printf("%s\n", eF);
